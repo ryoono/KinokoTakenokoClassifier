@@ -120,12 +120,12 @@ void loop() {
   Serial.print("5,");
   Serial.print(predictedClass);
   for (int i = 0; i < 3; ++i) {
-    Serial.print(sensor_value[i][0]); Serial.print(",");
-    Serial.print(sensor_value[i][1]); Serial.print(",");
-    Serial.print(sensor_value[i][2]); Serial.print(",");
-    Serial.print(sensor_value[i][3]); Serial.print(",");
-    Serial.print(sensor_value[i][4]); Serial.print(",");
-    Serial.print(sensor_value[i][5]); Serial.print(",");
+    Serial.print(","); Serial.print(sensor_value[i][0]);
+    Serial.print(","); Serial.print(sensor_value[i][1]); 
+    Serial.print(","); Serial.print(sensor_value[i][2]);
+    Serial.print(","); Serial.print(sensor_value[i][3]);
+    Serial.print(","); Serial.print(sensor_value[i][4]);
+    Serial.print(","); Serial.print(sensor_value[i][5]);
   }
   Serial.println(",6");
   
